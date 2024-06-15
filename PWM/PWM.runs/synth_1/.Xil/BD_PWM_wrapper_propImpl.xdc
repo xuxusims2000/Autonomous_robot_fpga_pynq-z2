@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:{C:/Users/Usuario/Desktop/UNI_UPC/TFG/pynq-z2_v1.0.xdc/PYNQ-Z2 v1.0.xdc} rfile:{../../../../../UNI_UPC/TFG/pynq-z2_v1.0.xdc/PYNQ-Z2 v1.0.xdc} id:1} [current_design]
+set_property src_info {type:XDC file:1 line:34 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN D19   IOSTANDARD LVCMOS33 } [get_ports { btn0 }]; #IO_L4P_T0_35 Sch=btn[0]
+set_property src_info {type:XDC file:1 line:35 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN D20   IOSTANDARD LVCMOS33 } [get_ports { btn1 }]; #IO_L4N_T0_35 Sch=btn[1]
+set_property src_info {type:XDC file:1 line:94 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN T14   IOSTANDARD LVCMOS33 } [get_ports { ar0 }]; #IO_L5P_T0_34 Sch=ar[0]

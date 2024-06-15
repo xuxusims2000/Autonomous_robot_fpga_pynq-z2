@@ -1,0 +1,380 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Apr  8 18:29:10 2024
+# Process ID: 15752
+# Current directory: C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23996 C:\Users\Usuario\Desktop\FPGA PYNQ_Z2 PROJECTES\PWM2\PWM.xpr
+# Log file: C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM2/vivado.log
+# Journal file: C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM2\vivado.jou
+# Running On: DESKTOP-T6T718M, OS: Windows, CPU Frequency: 3593 MHz, CPU Physical cores: 8, Host memory: 14963 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM2/PWM.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at H:/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at H:/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at H:/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at H:/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at H:/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at H:/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:17 . Memory (MB): peak = 1561.336 ; gain = 0.000
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM2/PWM.gen/sources_1/bd/BD_PWM/hdl/BD_PWM_wrapper.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM2/PWM.gen/sources_1/bd/BD_PWM/hdl/BD_PWM_wrapper.vhd}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM2/PWM.srcs/sources_1/bd/BD_PWM/BD_PWM.bd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM2/PWM.srcs/sources_1/bd/BD_PWM/BD_PWM.bd}}
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/Usuario/Desktop/UNI_UPC/TFG/Projectes_pynq/PWM/PWM.srcs/utils_1/imports/synth_1/PWM_generator.dcp with file C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM2/PWM.runs/synth_1/BD_PWM_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Apr  8 18:42:57 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM2/PWM.runs/synth_1/runme.log
+[Mon Apr  8 18:42:57 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM2/PWM.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 12 2022-21:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1561.336 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+open_hw_target: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 3649.359 ; gain = 2088.023
+set_property PROGRAM.FILE {C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM2/PWM.runs/impl_1/PWM_generator.bit} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM2/PWM.runs/impl_1/PWM_generator.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/1234-tulA.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/1234-tulA
+close_hw_manager
+open_project {C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.xpr}
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/Vivado/2022.1/data/ip'.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at H:/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at H:/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at H:/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at H:/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at H:/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at H:/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new
+file mkdir C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new
+file mkdir C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new
+file mkdir C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new
+file mkdir C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new
+file mkdir {C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new}
+close [ open {C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new/hcrs04_top.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new/hcrs04_top.vhd}}
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'hcrs04_top'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'H:/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'hcrs04_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj hcrs04_top_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/HCRS04.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'HCRS04'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/Time_counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Time_counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/TriggerGen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TriggerGen'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/display_decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'display_decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/distance_calculation.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'distance_calculation'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new/hcrs04_top.vhd" into library xil_defaultlib
+ERROR: [VRFC 10-2989] 'ieee' is not declared [C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new/hcrs04_top.vhd:1]
+INFO: [VRFC 10-3107] analyzing entity 'hcrs04_top'
+ERROR: [VRFC 10-9458] unit 'hcrs04_top' is ignored due to previous errors [C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new/hcrs04_top.vhd:3]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new/hcrs04_top.vhd' is ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'hcrs04_top'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'H:/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'hcrs04_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj hcrs04_top_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/HCRS04.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'HCRS04'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/Time_counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Time_counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/TriggerGen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TriggerGen'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/display_decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'display_decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/distance_calculation.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'distance_calculation'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new/hcrs04_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hcrs04_top'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot hcrs04_top_behav xil_defaultlib.hcrs04_top -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: H:/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot hcrs04_top_behav xil_defaultlib.hcrs04_top -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.TriggerGen [triggergen_default]
+Compiling architecture behavioral of entity xil_defaultlib.Time_counter [time_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.distance_calculation [distance_calculation_default]
+Compiling architecture behavioral of entity xil_defaultlib.display_decoder [display_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.HCRS04 [hcrs04_default]
+Compiling architecture behavior of entity xil_defaultlib.hcrs04_top
+Built simulation snapshot hcrs04_top_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 3720.211 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "hcrs04_top_behav -key {Behavioral:sim_1:Functional:hcrs04_top} -tclbatch {hcrs04_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source hcrs04_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'hcrs04_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 3749.543 ; gain = 29.332
+run 1 us
+run 40 us
+run 40 ms
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'hcrs04_top'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'H:/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'hcrs04_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj hcrs04_top_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot hcrs04_top_behav xil_defaultlib.hcrs04_top -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: H:/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot hcrs04_top_behav xil_defaultlib.hcrs04_top -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "hcrs04_top_behav -key {Behavioral:sim_1:Functional:hcrs04_top} -tclbatch {hcrs04_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source hcrs04_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'hcrs04_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 3777.945 ; gain = 0.000
+run 2 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'hcrs04_top'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'H:/Vivado/2022.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'hcrs04_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj hcrs04_top_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/HCRS04.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'HCRS04'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/TriggerGen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TriggerGen'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new/hcrs04_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hcrs04_top'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot hcrs04_top_behav xil_defaultlib.hcrs04_top -log elaborate.log"
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: H:/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot hcrs04_top_behav xil_defaultlib.hcrs04_top -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.TriggerGen [triggergen_default]
+Compiling architecture behavioral of entity xil_defaultlib.Time_counter [time_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.distance_calculation [distance_calculation_default]
+Compiling architecture behavioral of entity xil_defaultlib.display_decoder [display_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.HCRS04 [hcrs04_default]
+Compiling architecture behavior of entity xil_defaultlib.hcrs04_top
+Built simulation snapshot hcrs04_top_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "hcrs04_top_behav -key {Behavioral:sim_1:Functional:hcrs04_top} -tclbatch {hcrs04_top.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source hcrs04_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'hcrs04_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 3784.848 ; gain = 3.594
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 2 us
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 2 ms
+current_project PWM
+current_project det_distancia
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+close_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 3788.918 ; gain = 0.000

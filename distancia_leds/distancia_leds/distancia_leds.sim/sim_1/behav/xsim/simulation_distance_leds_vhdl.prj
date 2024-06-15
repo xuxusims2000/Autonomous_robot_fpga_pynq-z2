@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../distancia_leds.srcs/sources_1/new/distance_calculation.vhd" \
+"../../../../distancia_leds.srcs/sources_1/new/hcrso4.vhd" \
+"../../../../distancia_leds.srcs/sources_1/new/time_counter.vhd" \
+"../../../../distancia_leds.srcs/sources_1/new/trigggen.vhd" \
+"../../../../distancia_leds.srcs/sim_1/new/simulation_distance_leds.vhd" \
+
+# Do not sort compile order
+nosort

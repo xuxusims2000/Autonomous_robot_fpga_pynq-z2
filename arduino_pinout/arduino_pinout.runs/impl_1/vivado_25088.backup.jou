@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Apr 17 13:44:09 2024
+# Process ID: 25088
+# Current directory: C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/arduino_pinout/arduino_pinout.runs/impl_1
+# Command line: vivado.exe -log input_button.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source input_button.tcl -notrace
+# Log file: C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/arduino_pinout/arduino_pinout.runs/impl_1/input_button.vdi
+# Journal file: C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/arduino_pinout/arduino_pinout.runs/impl_1\vivado.jou
+# Running On: DESKTOP-T6T718M, OS: Windows, CPU Frequency: 3593 MHz, CPU Physical cores: 8, Host memory: 14963 MB
+#-----------------------------------------------------------
+source input_button.tcl -notrace

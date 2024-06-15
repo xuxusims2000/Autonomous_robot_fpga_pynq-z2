@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+63,true,"C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM2/clk_pl/clk_pl.srcs/sim_1/new/clk_divider_tb.vhd"

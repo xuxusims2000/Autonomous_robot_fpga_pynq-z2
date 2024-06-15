@@ -1,0 +1,68 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../distancia_leds.gen/sources_1/bd/bd_distance_led",
+      "name": "bd_distance_led",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.1"
+    },
+    "design_tree": {
+      "HCRS04_0": ""
+    },
+    "ports": {
+      "clk_in": {
+        "direction": "I"
+      },
+      "Echo": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "HCRS04_0": {
+        "vlnv": "xilinx.com:module_ref:HCRS04:1.0",
+        "xci_name": "bd_distance_led_HCRS04_0_0",
+        "xci_path": "ip\\bd_distance_led_HCRS04_0_0\\bd_distance_led_HCRS04_0_0.xci",
+        "inst_hier_path": "HCRS04_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "HCRS04",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "echo": {
+            "direction": "I"
+          },
+          "Trigger": {
+            "direction": "O"
+          },
+          "leds": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "Echo_1": {
+        "ports": [
+          "Echo",
+          "HCRS04_0/echo"
+        ]
+      },
+      "clk_in_1": {
+        "ports": [
+          "clk_in",
+          "HCRS04_0/clk"
+        ]
+      }
+    }
+  }
+}

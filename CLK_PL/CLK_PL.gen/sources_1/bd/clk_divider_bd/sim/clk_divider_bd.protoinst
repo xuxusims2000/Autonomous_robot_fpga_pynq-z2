@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"clk_divider_bd": {
+			"proto_instances": {
+			}
+		}
+	}
+}

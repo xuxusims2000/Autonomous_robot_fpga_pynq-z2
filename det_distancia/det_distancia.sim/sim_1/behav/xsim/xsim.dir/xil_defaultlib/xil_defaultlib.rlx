@@ -1,0 +1,10 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new/hcrs04_top.vhd,1712681949,vhdl,,,,hcrs04_top,,,,,,,,
+C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/HCRS04.vhd,1712681311,vhdl,,,,hcrs04,,,,,,,,
+C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/Time_counter.vhd,1712673678,vhdl,,,,time_counter,,,,,,,,
+C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/TriggerGen.vhd,1712678528,vhdl,,,,triggergen,,,,,,,,
+C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/display_decoder.vhd,1712673881,vhdl,,,,display_decoder,,,,,,,,
+C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/distance_calculation.vhd,1712673752,vhdl,,,,distance_calculation,,,,,,,,

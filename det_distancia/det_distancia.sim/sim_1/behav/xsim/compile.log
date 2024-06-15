@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/HCRS04.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'HCRS04'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sources_1/new/TriggerGen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TriggerGen'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/det_distancia/det_distancia.srcs/sim_1/new/hcrs04_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hcrs04_top'

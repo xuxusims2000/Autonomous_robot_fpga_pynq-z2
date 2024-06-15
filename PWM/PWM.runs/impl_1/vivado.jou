@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Apr  8 18:13:10 2024
+# Process ID: 19572
+# Current directory: C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM/PWM.runs/impl_1
+# Command line: vivado.exe -log BD_PWM_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source BD_PWM_wrapper.tcl -notrace
+# Log file: C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM/PWM.runs/impl_1/BD_PWM_wrapper.vdi
+# Journal file: C:/Users/Usuario/Desktop/FPGA PYNQ_Z2 PROJECTES/PWM/PWM.runs/impl_1\vivado.jou
+# Running On: DESKTOP-T6T718M, OS: Windows, CPU Frequency: 3593 MHz, CPU Physical cores: 8, Host memory: 14963 MB
+#-----------------------------------------------------------
+source BD_PWM_wrapper.tcl -notrace

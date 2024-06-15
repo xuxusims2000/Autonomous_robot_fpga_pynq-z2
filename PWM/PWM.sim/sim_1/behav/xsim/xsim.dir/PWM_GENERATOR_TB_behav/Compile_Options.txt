@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "xilinx_vip" -L "secureip" -L "xpm" --snapshot "PWM_GENERATOR_TB_behav" "xil_defaultlib.PWM_GENERATOR_TB" -log "elaborate.log" 
