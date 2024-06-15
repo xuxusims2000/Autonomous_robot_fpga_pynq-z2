@@ -1,0 +1,227 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x53197E6CFBE3DD0C",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../LCD.gen/sources_1/bd/BD_LCD",
+      "name": "BD_LCD",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "lcd_controller_0": "",
+      "Text_sender_0": ""
+    },
+    "ports": {
+      "rw": {
+        "direction": "O"
+      },
+      "clk_in": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "BD_LCD_clk_in",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "125000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "rs": {
+        "direction": "O"
+      },
+      "e": {
+        "direction": "O"
+      },
+      "lcd_data": {
+        "type": "data",
+        "direction": "O",
+        "left": "7",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "sw": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "lcd_controller_0": {
+        "vlnv": "xilinx.com:module_ref:lcd_controller:1.0",
+        "xci_name": "BD_LCD_lcd_controller_0_0",
+        "xci_path": "ip\\BD_LCD_lcd_controller_0_0\\BD_LCD_lcd_controller_0_0.xci",
+        "inst_hier_path": "lcd_controller_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "lcd_controller",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "125000000",
+                "value_src": "user_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "BD_LCD_clk_in",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "reset_n": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "rw": {
+            "direction": "O"
+          },
+          "rs": {
+            "direction": "O"
+          },
+          "e": {
+            "direction": "O"
+          },
+          "lcd_data": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "line1_buffer": {
+            "direction": "I",
+            "left": "127",
+            "right": "0"
+          },
+          "line2_buffer": {
+            "direction": "I",
+            "left": "127",
+            "right": "0"
+          }
+        }
+      },
+      "Text_sender_0": {
+        "vlnv": "xilinx.com:module_ref:Text_sender:1.0",
+        "xci_name": "BD_LCD_Text_sender_0_0",
+        "xci_path": "ip\\BD_LCD_Text_sender_0_0\\BD_LCD_Text_sender_0_0.xci",
+        "inst_hier_path": "Text_sender_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Text_sender",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "125000000",
+                "value_src": "user_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "BD_LCD_clk_in",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "sw": {
+            "direction": "I"
+          },
+          "line1_buffer": {
+            "direction": "O",
+            "left": "127",
+            "right": "0"
+          },
+          "line2_buffer": {
+            "direction": "O",
+            "left": "127",
+            "right": "0"
+          },
+          "reset_n": {
+            "type": "rst",
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "Text_sender_0_line1_buffer": {
+        "ports": [
+          "Text_sender_0/line1_buffer",
+          "lcd_controller_0/line1_buffer"
+        ]
+      },
+      "Text_sender_0_line2_buffer": {
+        "ports": [
+          "Text_sender_0/line2_buffer",
+          "lcd_controller_0/line2_buffer"
+        ]
+      },
+      "Text_sender_0_reset_n": {
+        "ports": [
+          "Text_sender_0/reset_n",
+          "lcd_controller_0/reset_n"
+        ]
+      },
+      "clk_in_1": {
+        "ports": [
+          "clk_in",
+          "lcd_controller_0/clk",
+          "Text_sender_0/clk"
+        ]
+      },
+      "lcd_controller_0_e": {
+        "ports": [
+          "lcd_controller_0/e",
+          "e"
+        ]
+      },
+      "lcd_controller_0_lcd_data": {
+        "ports": [
+          "lcd_controller_0/lcd_data",
+          "lcd_data"
+        ]
+      },
+      "lcd_controller_0_rs": {
+        "ports": [
+          "lcd_controller_0/rs",
+          "rs"
+        ]
+      },
+      "lcd_controller_0_rw": {
+        "ports": [
+          "lcd_controller_0/rw",
+          "rw"
+        ]
+      },
+      "sw_1": {
+        "ports": [
+          "sw",
+          "Text_sender_0/sw"
+        ]
+      }
+    }
+  }
+}

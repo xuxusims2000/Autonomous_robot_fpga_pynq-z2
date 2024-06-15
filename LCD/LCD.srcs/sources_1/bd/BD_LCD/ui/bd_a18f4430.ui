@@ -1,0 +1,29 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-299,-221",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_rw -pg 1 -lvl 3 -x 580 -y 60 -defaultsOSRD
+preplace port port-id_clk_in -pg 1 -lvl 0 -x 0 -y 40 -defaultsOSRD
+preplace port port-id_rs -pg 1 -lvl 3 -x 580 -y 80 -defaultsOSRD
+preplace port port-id_e -pg 1 -lvl 3 -x 580 -y 100 -defaultsOSRD
+preplace port port-id_sw -pg 1 -lvl 0 -x 0 -y 130 -defaultsOSRD
+preplace portBus lcd_data -pg 1 -lvl 3 -x 580 -y 120 -defaultsOSRD
+preplace inst lcd_controller_0 -pg 1 -lvl 2 -x 410 -y 90 -defaultsOSRD
+preplace inst Text_sender_0 -pg 1 -lvl 1 -x 140 -y 120 -defaultsOSRD
+preplace netloc Text_sender_0_reset_n 1 1 1 260 80n
+preplace netloc Text_sender_0_line2_buffer 1 1 1 N 120
+preplace netloc Text_sender_0_line1_buffer 1 1 1 N 100
+preplace netloc clk_in_1 1 0 2 20 40 260
+preplace netloc lcd_controller_0_rw 1 2 1 NJ 60
+preplace netloc lcd_controller_0_rs 1 2 1 NJ 80
+preplace netloc lcd_controller_0_e 1 2 1 NJ 100
+preplace netloc lcd_controller_0_lcd_data 1 2 1 NJ 120
+preplace netloc sw_1 1 0 1 NJ 130
+levelinfo -pg 1 0 140 410 580
+pagesize -pg 1 -db -bbox -sgen -90 0 720 200
+"
+}
+
